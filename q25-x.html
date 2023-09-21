@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three-Column Layout</title>
+</head>
+
+<style>
+    .container {
+        display: flex;
+        margin: 10px;
+    }
+    
+    .column {
+        margin: 10px;
+    }
+    
+    .column-1 {
+        flex-basis: 20%;
+        background-color: rgb(16, 76, 97);
+    }
+    
+    .column-2 {
+        flex-basis: 50%;
+        background-color: rgb(80, 19, 19);
+    }
+    
+    .column-3 {
+        flex-grow: 1;
+        background-color: rgb(32, 134, 197);
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="column column-1">
+            col1
+        </div>
+        <div class="column column-2">
+            col2
+        </div>
+        <div class="column column-3">
+            col3
+        </div>
+    </div>
+</body>
+</html>

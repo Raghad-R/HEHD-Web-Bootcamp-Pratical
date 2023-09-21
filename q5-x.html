@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+/* #GrideContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ; 
+  
+  box-sizing: border-box;
+  
+} */
+#GrideContainer{
+    display: flex;
+ margin: 10px;
+    width: 500px;
+}
+
+#left-col{
+    width: 300px;
+  margin-right: 20px;
+  background-color: #e0e0e0;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+#right-col{
+  flex-grow: 1;
+  background-color: #e0e0e0;
+  padding: 10px;
+}
+</style>
+
+</head>
+
+<body>
+    <div id ="GrideContainer">
+        <div  id="left-col">Item</div>
+        <div   id="right-col">Item2</div>
+
+      
+       
+
+    </div>    
+</body>
+
+</html>
